@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+body {
+    background-color: #0a0a0a;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.torn-edge {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 98% 97%, 95% 94%, 92% 98%, 89% 95%, 86% 99%, 83% 94%, 80% 98%, 77% 95%, 74% 97%, 71% 94%, 68% 99%, 65% 95%, 62% 98%, 59% 94%, 56% 99%, 53% 95%, 50% 98%, 47% 94%, 44% 99%, 41% 95%, 38% 98%, 35% 94%, 32% 99%, 29% 95%, 26% 98%, 23% 94%, 20% 99%, 17% 95%, 14% 98%, 11% 94%, 8% 99%, 5% 95%, 2% 98%, 0% 95%);
+}
+
+.dotted-line {
+    border-bottom: 3px dotted #f3f4f6;
+    opacity: 0.3;
+    flex-grow: 1;
+    margin: 0 10px;
+    position: relative;
+    top: -6px;
+}
